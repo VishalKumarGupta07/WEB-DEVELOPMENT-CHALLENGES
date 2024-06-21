@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #ff0000;
+            padding: 10px 20px;
+            color: white;
+            text-align: center;
+        }
+        .main {
+            padding: 20px;
+        }
+        .video {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+        }
+        .video img {
+            max-width: 200px;
+            border-radius: 8px;
+        }
+        .video-details {
+            margin-left: 20px;
+        }
+        .video h2 {
+            color: #333;
+            margin: 0;
+        }
+        .video p {
+            color: #555;
+            margin: 5px 0;
+        }
+        .watch-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff0000;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .watch-button:hover {
+            background-color: #cc0000;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to YouTube</h1>
+    </header>
+    <div class="main">
+        <div class="video">
+            <img src="https://via.placeholder.com/200" alt="Video Thumbnail">
+            <div class="video-details">
+                <h2>Video Title</h2>
+                <p>Video description goes here. This is a brief summary of the video content.</p>
+                <a href="#" class="watch-button">Watch Now</a>
+            </div>
+        </div>
+        <div class="video">
+            <img src="https://via.placeholder.com/200" alt="Video Thumbnail">
+            <div class="video-details">
+                <h2>Video Title</h2>
+                <p>Video description goes here. This is a brief summary of the video content.</p>
+                <a href="#" class="watch-button">Watch Now</a>
+            </div>
+        </div>
+        <!-- Add more videos as needed -->
+    </div>
+    <footer>
+        &copy; 2024 YouTube. All rights reserved.
+    </footer>
+</body>
+</html>
